@@ -1,0 +1,2 @@
+uint16 min_reliable_distance_
+uint16 max_reliable_distance_

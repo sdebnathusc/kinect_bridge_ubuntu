@@ -1,0 +1,77 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+    
+      <item>
+        <tag>FOLLOW</tag>
+        <one-of>
+          <item> Come with me </item>
+          <item> Come on </item>
+          <item> Follow me </item>
+          <item> Follow </item>
+        </one-of>
+      </item>
+      
+      <item>
+        <tag>LOOK_AT</tag>
+        <one-of>
+          <item> Look at this </item>
+          <item> Look here </item>
+          <item> See this </item>
+        </one-of>
+      </item>
+      
+	    <item>
+        <tag>MOVE_BACKWARD</tag>
+        <one-of>
+          <item> Back </item>
+          <item> Backward </item>
+          <item> Backwards </item>
+          <item> Move back </item>
+        </one-of>
+      </item>
+      
+      <item>
+        <tag>MOVE_FORWARD</tag>
+        <one-of>
+          <item> Come closer </item>
+          <item> Come forward </item>
+          <item> Forward </item>
+          <item> Forwards </item>
+        </one-of>
+      </item>
+      
+      <item>
+        <tag>STOP</tag>
+        <one-of>
+          <item> Stay </item>
+          <item> Stop </item>
+          <item> Wait here </item>
+          <item> Wait there </item>
+        </one-of>
+      </item>
+      
+      <item>
+        <tag>VOLUME_UP</tag>
+        <one-of>
+          <item> Increase volume </item>
+          <item> Louder </item>
+          <item> Speak up </item>
+          <item> Volume up </item>
+        </one-of>
+      </item>
+      
+      <item>
+        <tag>VOLUME_DOWN</tag>
+        <one-of>
+          <item> Decrease volume </item>
+          <item> Quiet down </item>
+          <item> Softer </item>
+          <item> Speak softer </item>
+          <item> Volume down </item>
+        </one-of>
+      </item>
+      
+    </one-of>
+  </rule>
+</grammar>

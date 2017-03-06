@@ -1,0 +1,19 @@
+uint8 is_tracked
+int8 Pitch
+int8 Yaw
+int8 Roll
+string Happy
+string Engaged
+string WearingGlasses
+string LeftEyeClosed
+string RightEyeClosed
+string MouthOpen
+string MouthMoved
+string LookingAway
+int32[4] BoundingBox
+
+int32[2] EyeLeft
+int32[2] EyeRight
+int32[2] Nose
+int32[2] MouthCornerLeft
+int32[2] MouthCornerRight

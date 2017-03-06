@@ -1,0 +1,4 @@
+<launch>
+    <arg name="PI_2" value="1.57079632679"/>
+    <node pkg="tf" type="static_transform_publisher" name="kinect_depth_frame_to_kinect" output="screen" args="0 0 0 $(arg PI_2) 0 $(arg PI_2) /kinect_depth_frame /kinect 100"/>
+</launch>

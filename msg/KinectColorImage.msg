@@ -1,0 +1,5 @@
+uint16 height_
+uint16 width_
+uint8 num_channels_
+uint8 pixel_depth_
+string encoding_

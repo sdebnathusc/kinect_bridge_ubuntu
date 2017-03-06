@@ -1,0 +1,5 @@
+<launch>
+    <arg name="server_ip" />
+    <node pkg="kinect_bridge2" type="kinect_client" name="kinect_client" output="screen" args="_server_ip:=$(arg server_ip)" />
+	<include file="$(find kinect_bridge2)/launch/kinect_transforms.launch" />
+</launch>
