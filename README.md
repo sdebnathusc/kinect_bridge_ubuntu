@@ -21,6 +21,6 @@
 
 8) catkin_make 
 
-9) roslaunch kinect_bridge2 kinect_client.launch server_ip:=<ip_of_windows_machine> 
+9) roslaunch kinect_bridge2 kinect_client.launch server_ip:=`ip_of_windows_machine`
 
 This will start up Kinect Client. 
