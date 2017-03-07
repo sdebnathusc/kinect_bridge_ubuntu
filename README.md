@@ -1,4 +1,4 @@
-# Kinect Client in Ubuntu - Color, Depth, Infrared, Body Tracking, Face Tracking
+# Kinect Client on Ubuntu - Color, Depth, Infrared, Body Tracking, Face Tracking
 
 
 1) git clone https://github.com/sdebnathusc/kinect_bridge_ubuntu.git
